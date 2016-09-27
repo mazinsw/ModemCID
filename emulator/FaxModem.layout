@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="..\src\win\Event.c" Top="Yes" Tabpos="1" TopLine="36">
+			<Cursor Line="58" Column="47"/>
+		</File>
+	</Files>
+	<Folders>
+		<Folder Name="src" Expanded="Yes"/>
+		<Folder Name=".." Expanded="Yes"/>
+		<Folder Name="..\src" Expanded="Yes"/>
+		<Folder Name="..\src\win" Expanded="Yes"/>
+		<Folder Name="..\src\system" Expanded="Yes"/>
+		<Folder Name="..\src\comm" Expanded="Yes"/>
+	</Folders>
+</Layout>

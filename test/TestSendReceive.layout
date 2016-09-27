@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="test_send_receive.c" Top="Yes" Tabpos="1" TopLine="25">
+			<Cursor Line="1" Column="1"/>
+		</File>
+	</Files>
+</Layout>

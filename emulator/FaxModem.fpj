@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Libs Value="-lVSPE_API -Llib -lwinspool -m32"/>
+	<Flags Value="-Iinclude -I..\src\system -I..\src\comm -m32"/>
+	<Target Value="bin/FaxModem.exe"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value="-Wall -s -O2"/>
+	<DeleteObjectsBefore Value="Yes"/>
+	<DeleteObjectsAfter Value="Yes"/>
+	<DeleteMakefileAfter Value="Yes"/>
+	<DeleteResourcesAfter Value="Yes"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="CONSOLE"/>
+	<Files>
+		<Folder Name="src">
+			<File Name="main.cpp"/>
+		</Folder>
+		<Folder Name="..">
+			<Folder Name="src">
+				<Folder Name="win">
+					<File Name="Event.c"/>
+					<File Name="Thread.c"/>
+					<File Name="CommPort.c"/>
+				</Folder>
+				<Folder Name="system">
+					<File Name="Event.h"/>
+					<File Name="Thread.h"/>
+				</Folder>
+				<Folder Name="comm">
+					<File Name="CommPort.h"/>
+				</Folder>
+			</Folder>
+		</Folder>
+	</Files>
+</Project>

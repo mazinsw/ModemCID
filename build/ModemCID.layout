@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Folders>
+		<Folder Name=".." Expanded="Yes"/>
+		<Folder Name="..\include" Expanded="Yes"/>
+		<Folder Name="..\include\private" Expanded="Yes"/>
+		<Folder Name="..\src" Expanded="Yes"/>
+		<Folder Name="..\src\system" Expanded="Yes"/>
+		<Folder Name="..\src\comm" Expanded="Yes"/>
+		<Folder Name="..\src\win" Expanded="Yes"/>
+		<Folder Name="..\src\util" Expanded="Yes"/>
+	</Folders>
+</Layout>

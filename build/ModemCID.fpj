@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<VersionInfo>
+		<VersionNumbers Major="2" Minor="0" Release="0" Build="0"/>
+		<LanguageID Value="1046"/>
+		<CharsetID Value="1252"/>
+		<CompanyName Value="MZSW"/>
+		<FileVersion Value="2.0.0.0"/>
+		<FileDescription Value="Fax Modem CallerID Detection"/>
+		<InternalName Value="ModemCID.dll"/>
+		<LegalCopyright Value=""/>
+		<LegalTrademarks Value=""/>
+		<OriginalFilename Value="ModemCID.dll"/>
+		<ProductName Value="ModemCID"/>
+		<ProductVersion Value="2.0.0.0"/>
+		<AutoIncrementBuild Value="No"/>
+	</VersionInfo>
+	<Libs Value="-shared -Wl,--kill-at,--out-implib,../bin/x86/libModemCID.dll.a -lwinspool -m32"/>
+	<Flags Value="-I..\include -I..\src\system -I..\src\comm -I..\src\util -DBUILD_DLL -DDEBUGLIB2 -m32"/>
+	<Target Value="../bin/x86/ModemCID.dll"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value="-Wall -s -O2"/>
+	<DeleteObjectsBefore Value="No"/>
+	<DeleteObjectsAfter Value="No"/>
+	<DeleteMakefileAfter Value="No"/>
+	<DeleteResourcesAfter Value="No"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="C"/>
+	<AppType Value="DLL"/>
+	<Files>
+		<Folder Name="..">
+			<Folder Name="include">
+				<File Name="ModemCID.h"/>
+				<Folder Name="private">
+					<File Name="Platform.h"/>
+				</Folder>
+			</Folder>
+			<Folder Name="src">
+				<File Name="ModemCID.c"/>
+				<Folder Name="system">
+					<File Name="Event.h"/>
+					<File Name="Mutex.h"/>
+					<File Name="Thread.h"/>
+				</Folder>
+				<Folder Name="comm">
+					<File Name="CommPort.h"/>
+				</Folder>
+				<Folder Name="win">
+					<File Name="main.c"/>
+					<File Name="CommPort.c"/>
+					<File Name="Event.c"/>
+					<File Name="Mutex.c"/>
+					<File Name="Thread.c"/>
+				</Folder>
+				<Folder Name="util">
+					<File Name="StringBuilder.h"/>
+					<File Name="StringBuilder.c"/>
+					<File Name="Queue.h"/>
+					<File Name="Queue.c"/>
+				</Folder>
+			</Folder>
+		</Folder>
+	</Files>
+</Project>
